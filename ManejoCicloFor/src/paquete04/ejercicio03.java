@@ -11,20 +11,25 @@ package paquete04;
 public class ejercicio03 {
 
     public static void main(String[] args) {
-
-        String mensajeFinal = "";
-        double op1;
-        int op = 0;
-
-        for (int i = 20; i <= 100; i += 4) {
-            op1 = 0.55555*(i - 32);
-          
-            op += 1;
-            System.out.println("Operación "+ op
-                    + "Fahrenheit:"+ i+
-                    "===> Celcius:"  +op1);
-           
+  
+                 for (int i = 1; i <= 5; i++) {
+            for (int contador = 1; contador <= i; contador++) {
+                
+                System.out.printf("%s", "*");
+            }
+            System.out.println();
+        }
+         for (int i = 5; i >= 1; i--) {
+            for (int contador = 1; contador <= i; contador++) {
+                
+                System.out.printf("%s", "*");
+            }
+            System.out.println();
         }
         
     }
 }
+
+        
+        
+    
